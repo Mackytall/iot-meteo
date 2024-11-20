@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/support.css">
+    <link rel="shortcut icon" href="../image/neige.gif">
+    <title>Connexion</title>
+</head>
+<body>
+    <header class="header">
+        <div class="title">
+            <h1>MNCA</h1>   
+        </div>
+    
+        <div class="navigation">
+            <input type="checkbox" class="toggle-menu">
+            <div class="hamburger"></div>
+    
+            <ul class="menu">
+                <li><a href="../php/index.php">Météo locale</a></li>
+                <li><a href="meteo_france.html">Météo France</a></li>
+                <li><a href="connexion.html">Connexion</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+    </header>
+<div class="block-support">
+    <br><div>
+        <div>
+            <br>
+            <p>Un problème ?</p>
+        </div>
+        <br>
+
+<form action="https://postmail.invotes.com/send"
+    method="post" id="email_form">
+
+    <label for="name">Sujet</label>
+    <div class="input-label">
+        <br>
+        <input type="text" name="subject" placeholder="Ex : Bug" id="nom" class="inscription-boxes">
+    </div>
+    <br>
+    <br>
+    <label for="name">Message</label>
+    <div class="input-label">
+        <br>
+        <textarea placeholder="Veuillez saisir votre mail au début de ce message" class="texte-support" name="text"></textarea>
+    </div>
+    <input type="hidden" name="access_token" value="udrp83k61818xc94e4nkivs6" />
+    <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+    <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+    <br>
+    <button class="send-button" id="submit_form" type="submit" value="Send"><b>Envoyer</b></button>
+</form>
+<br>
+<br>
+<br>
+</body>
+</html>

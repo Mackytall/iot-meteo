@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/inscription.css">
+    <link rel="shortcut icon" href="../image/neige.gif">
+</head>
+<body> 
+    <header class="header">
+        <div class="title">
+            <h1>MNCA</h1>   
+        </div>
+    
+        <div class="navigation">
+    
+            <input type="checkbox" class="toggle-menu">
+            <div class="hamburger"></div>
+    
+                <ul class="menu">
+                    <li><a href="../php/index.php">Météo locale</a></li>
+                    <li><a href="meteo_france.html">Météo France</a></li>
+                    <li><a href="connexion.html">Connexion</a></li>
+                    <li><a href="inscription.html">Inscription</a></li>
+                    <li><a href="support.html">Support</a></li>
+                </ul>
+        </div>
+    </header>
+    <div class="block-inscription">
+        <br><div>
+            <div>
+                <br>
+                <p>Inscription</p>
+            </div>
+            <br>
+            <form action='../../api/users/index.php' method="POST">
+    <label for="name">Nom</label><br>
+    <input type="text" name="name" placeholder="Nom" id="nom" class="inscription-boxes">
+</div><br><br>
+
+<div class="input-label">
+    <label for="email">Email</label><br>
+    <input type="email" name="email" id="email" placeholder="exemple@gmail.com" class="inscription-boxes">  
+</div><br><br>
+
+<div class="input-label">
+    <label for="password">Mot de passe</label><br>
+    <input type="password" name="password" id="password" placeholder="***********" class="inscription-boxes">
+</div><br>
+
+    <div>
+        <input type="submit" class="inscription-button" name="inscription"></button>
+    </div>
+    <br>
+</form>
+
+</body>
+</html>

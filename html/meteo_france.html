@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/meteo_france.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="shortcut icon" href="../image/neige.gif">
+    <title>Météo France</title>
+</head>
+<body>
+    <header class="header">
+        <div class="title">
+            <h1>MNCA</h1>   
+        </div>
+    
+     <div class="navigation">
+    
+        <input type="checkbox" class="toggle-menu">
+        <div class="hamburger"></div>
+    
+        <ul class="menu">
+            <li><a href="../php/index.php">Météo locale</a></li>
+            <li><a href="meteo_france.html">Météo France</a></li>
+            <li><a href="connexion.html">Connexion</a></li>
+            <li><a href="inscription.html">Inscription</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+        </div>
+    </header>
+    <div class="background-block">
+        <br>
+        <h1 class="titremeteo">La météo en temps réel, partout en France</h1>
+        <div class="content" style="text-align: center;">
+            <div class="temperature-block">
+                <p class="textemeteo">Découvrez la météo de votre ville :</p>
+                <form action="" class="recherchemeteo">
+                    <input type="search" placeholder="Lyon">
+                    <button type="submit">.</button>
+                </form>
+            </div>
+        </div>
+        <br>
+        <div class="meteowidget">
+            <!-- <iframe class="meteowidget" id="widget_autocomplete_preview"  width="300" height="350" frameborder="0" src="https://meteofrance.com/widget/prevision/691230"> </iframe> -->
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-a12532ef-6826-4921-995b-0b295bc6a997"></div>
+        </div>
+    </div>
+</body>
+</html>

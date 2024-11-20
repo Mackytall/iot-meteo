@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../image/neige.gif">
+    <title>Connexion</title>
+</head>
+<body>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/connexion.css">
+    <header class="header">
+        <div class="title">
+            <h1>MNCA</h1>   
+        </div>
+    
+        <div class="navigation">
+            <input type="checkbox" class="toggle-menu">
+            <div class="hamburger"></div>
+    
+            <ul class="menu">
+                <li><a href="../php/index.php">Météo locale</a></li>
+                <li><a href="meteo_france.html">Météo France</a></li>
+                <li><a href="connexion.html">Connexion</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="form">
+        <form method="POST" action="../../api/login.php">
+            <div class="flex-inputs">
+                <div class="input-label">
+            <div class="block-connexion">
+                <div>
+                    <br>
+                    <br>
+                    <p>Connexion</p>
+                </div>
+                <br>
+                <br>    
+                <div class="input-label">
+                    <label for="tel">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Email" class="connexion-boxes">
+                </div>
+                <br>
+                <div class="input-label">
+                    <label for="password">Mot de passe</label><br>
+                    <input type="password" name="password" id="password" placeholder="Mot de passe" class="connexion-boxes">
+                </div><br><br>
+                <div>
+                    <input type="submit" class="connexion-button" name="Connexion"></input>
+                </div>
+            <br>
+            <br>
+            <br>
+            <br>
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+</body>
+</html>

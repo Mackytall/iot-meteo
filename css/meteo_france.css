@@ -1,0 +1,147 @@
+body{
+
+    font-family: century gothic;
+
+    }
+
+.background-block h1 {
+    text-align: center;
+    margin-bottom:4rem;
+    padding-top: 20px;
+}
+
+.background-block {
+    /* text-align: center; */
+    height:110vh;
+    width: 90%;
+    border-radius: 20px;
+    margin-left:auto ;
+    margin-right:auto ;
+    margin-top: 20px;
+    background-color: #f0e9fd; 
+    padding-top:5px; 
+}
+
+@media(max-width: 800px){
+.background-block {
+    /* text-align: center; */
+    width: 350px;
+}
+}
+/* BOUTTON  */
+
+form {
+    border: 1px solid black;
+    width:fit-content;
+    border: 1px solid ;
+    border-radius: 20px;
+    background-color: white;;
+    margin-top: 15px;
+    
+  }
+
+input[type="search"] {
+border: none;
+background: transparent;
+margin: 0;
+padding: 20px 60px;
+font-size: 14px;
+color: inherit;
+border: 1px solid transparent;
+border-radius: inherit; 
+text-align:center
+} 
+
+
+input[type="search"]::placeholder {
+    color: #bbb;
+} 
+
+button[type="submit"] {
+    color:rgb(138, 50, 209);
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+button[type="submit"]:hover {
+    opacity: 1;
+  }
+
+
+input[type="search"]:focus {
+  box-shadow: 0 0 3px 0 rgb(138, 50, 209);
+  border-color: rgb(138, 50, 209);
+  outline: none;
+}
+
+/* FIN BOUTTON */
+
+/* TEMPERATURE  */
+
+.mesure-unite {
+    font-size: 30px;    
+}
+
+/* FIN TEMPERATURE */
+
+
+.background-block .content {
+    display:flex;
+    justify-content: space-around;
+}
+
+.meteowidget{
+    margin-left: 22%;
+    border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+    .meteowidget {
+      flex-direction: column;
+      margin-left: 4%;
+    }
+}
+
+.recherchemeteo{
+    flex-direction: column;
+}
+
+.meteodeco{
+    border-radius: 80px;
+    margin-left: 70%;
+    margin-top: -30%;
+}
+
+@media (max-width: 800px) {
+    .meteodeco{
+        display: none;
+    }
+}
+
+.titremeteo{
+    font-size:2.5rem;
+}
+
+.textemeteo{
+    font-size: 1.3rem;
+}
+
+.elfsight-app-a12532ef-6826-4921-995b-0b295bc6a997{
+    margin-left: 22%;
+    border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+    .elfsight-app-a12532ef-6826-4921-995b-0b295bc6a997 {
+      flex-direction: column;
+      margin-left: 4%;
+    }
+}

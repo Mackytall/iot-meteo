@@ -1,0 +1,89 @@
+    body{
+
+        font-family: century gothic;
+
+        }
+
+    p{
+
+        color: gray;
+    
+    }
+
+  .support-button{
+    margin-left: 0px;   
+    margin-top: 15px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-family: century gothic;
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+    background-color: rgb(230, 230, 230);
+  }
+
+  .texte-support{
+    text-align: center;
+    border: 0;
+    border-radius: 20px;
+    max-width: 30%;
+    min-width: 30%;
+    height: 100px;
+    resize : none;
+  }
+
+  @media (max-width: 800px) {
+    .texte-support {
+      max-width: 95%;
+      min-width: 95%;
+    }
+  }
+
+  .block-support {
+    text-align: center;
+    width: 70%;
+    border-radius: 20px;
+    margin-left:15% ;
+    margin-top: 5vh;
+    background-color: #f0e9fd; 
+    padding-top:5px; 
+    height:60vh;
+}
+
+.send-button{
+    margin-left: 0px;   
+    margin-top: 15px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-family: century gothic;
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+    background-color: rgb(230, 230, 230);
+  }
+
+  .send-button:hover{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-family: century gothic;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    background-color: rgb(138, 50, 209);
+    transition: 0.5s;
+}
+
+.inscription-boxes{
+    border-radius: 20px;
+    border:0;
+    text-align: center;
+    height: 40px;
+    width: 160px;
+}
+
+textarea::placeholder{
+padding-top: 40px;
+}

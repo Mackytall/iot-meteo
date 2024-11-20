@@ -1,0 +1,77 @@
+    body{
+
+        font-family: century gothic;
+
+        }
+
+    p{
+
+        color: gray;
+
+    }
+
+    .block-inscription {
+        text-align: center;
+        width: 70%;
+        border-radius: 20px;
+        margin-left:15% ;
+        margin-top: 5vh;
+        background-color: #f0e9fd; 
+        padding-top:5px; 
+        height:65vh;
+    }
+
+  .inscription-button{
+
+    margin-left: 0px;   
+    margin-top: 15px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-family: century gothic;
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+    background-color: rgb(230, 230, 230);
+
+  }
+
+  .inscription-boxes{
+
+    margin-left: auto;   
+    margin-top: 15px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-family: century gothic;
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+
+  }
+
+  .inscription-button{
+    margin-left: 0px;   
+    margin-top: 15px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-family: century gothic;
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+    background-color: rgb(230, 230, 230);
+  }
+
+  .inscription-button:hover{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-family: century gothic;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    background-color: rgb(138, 50, 209);
+    transition: 0.5s;
+    }
